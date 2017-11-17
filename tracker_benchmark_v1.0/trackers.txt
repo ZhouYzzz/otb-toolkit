@@ -1,0 +1,25 @@
+CPF		P. Perez, C. Hue, J. Vermaak, and M. Gangnet. Color-Based Probabilistic Tracking. In ECCV, 2002.
+LOT		S. Oron, A. Bar-Hillel, D. Levi, and S. Avidan. Locally Orderless Tracking. In CVPR, 2012. 
+IVT		D. Ross, J. Lim, R.-S. Lin, and M.-H. Yang. Incremental Learning for Robust Visual Tracking. IJCV, 77(1):125¨C141, 2008. 
+ASLA	X. Jia, H. Lu, and M.-H. Yang. Visual Tracking via Adaptive Structural Local Sparse Appearance Model. In CVPR, 2012. 
+SCM		W. Zhong, H. Lu, and M.-H. Yang. Robust Object Tracking via Sparsity-based Collaborative Model. In CVPR, 2012. 
+L1APG	C. Bao, Y. Wu, H. Ling, and H. Ji. Real Time Robust L1 Tracker Using Accelerated Proximal Gradient Approach. In CVPR, 2012. 
+MTT		T.Zhang, B. Ghanem,S. Liu,and N. Ahuja. Robust Visual Tracking via Multi-task Sparse Learning. In CVPR, 2012. 
+VTD		J. Kwon and K. M. Lee. Visual Tracking Decomposition. In CVPR, 2010. 
+VTS		J. Kwon and K. M. Lee. Tracking by Sampling Trackers. In ICCV, 2011. 
+LSK		B. Liu, J. Huang, L. Yang, and C. Kulikowsk. Robust Tracking using Local Sparse Appearance Model and K-Selection. In CVPR, 2011. 
+ORIA	Y. Wu, B. Shen, and H. Ling. Online Robust Image Alignment via Iterative Convex Optimization. In CVPR, 2012. 
+DFT		L. Sevilla-Lara and E. Learned-Miller. Distribution Fields for Tracking. In CVPR, 2012. 
+KMS		D. Comaniciu, V. Ramesh, and P. Meer. Kernel-Based Object Tracking. PAMI, 25(5):564¨C577, 2003.
+SMS		R. Collins. Mean-shift Blob Tracking through Scale Space. In CVPR, 2003.
+VR-V	R. T. Collins, Y. Liu, and M. Leordeanu. Online Selection of Discriminative Tracking Features. PAMI, 27(10):1631¨C1643, 2005. 
+Frag	A. Adam, E. Rivlin, and I. Shimshoni. Robust Fragments-based Tracking using the Integral Histogram. In CVPR, 2006. 
+OAB		H. Grabner, M. Grabner, and H. Bischof. Real-Time Tracking via On-line Boosting. In BMVC, 2006. 
+SemiT	H. Grabner, C. Leistner, and H. Bischof. Semi-supervised On-Line Boosting for Robust Tracking. In ECCV, 2008. 
+BSBT	S. Stalder, H. Grabner, and L. van Gool. Beyond Semi-Supervised Tracking: Tracking Should Be as Simple as Detection, but not Simpler than Recognition. In ICCV Workshop, 2009. 
+MIL		B. Babenko, M.-H. Yang, and S. Belongie. Visual Tracking with Online Multiple Instance Learning. In CVPR, 2009. 
+CT		K. Zhang, L. Zhang, and M.-H. Yang. Real-time Compressive Tracking. In ECCV, 2012. 
+TLD		Z. Kalal, J. Matas, and K. Mikolajczyk. P-N Learning: Bootstrapping Binary Classifiers by Structural Constraints. In CVPR, 2010. 
+Struck	S. Hare, A. Saffari, and P. H. S. Torr. Struck: Structured Output Tracking with Kernels. In ICCV, 2011. 
+CSK		F. Henriques, R. Caseiro, P. Martins, and J. Batista. Exploiting the Circulant Structure of Tracking-by-Detection with Kernels. In ECCV, 2012. 
+CXT		T. B. Dinh, N. Vo, and G. Medioni. Context Tracker: Exploring supporters and distracters in unconstrained environments. In CVPR, 2011. 
