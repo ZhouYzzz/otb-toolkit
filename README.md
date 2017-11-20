@@ -3,7 +3,7 @@ OTB Toolkit
 
 This is a friendly toolkit for comparing your trackers and the state-of-the-art trackers on the Online Tracking Benchmark (OTB-2013 and OTB-2015). The source code is inherited from the official repository [Visual Tracking Benchmark](http://cvlab.hanyang.ac.kr/tracker_benchmark/index.html).
 
-[![Success Plot](figs/OPE/success_plot.png)]
+![Success Plot](figs/OPE/success_plot.png)
 
 ## Features
 * Compatible tracking protocol
