@@ -82,11 +82,9 @@ function download_if_needed(seqspath, sequence)
     splitted = strsplit(sequence, '-');
     fprintf(['Downloading sequence ' splitted{1} ', This may take a while...\n']);
     zipname = fullfile(seqspath, 'archives', [splitted{1} '.zip']);
-    zipurl = ['/home/zhouyz/Development/OTB/sequences/archive/' splitted{1} '.zip'];
-    % zipurl = ['http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/' splitted{1} '.zip'];
+    zipurl = ['http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/' splitted{1} '.zip'];
     try
-        %urlwrite(zipurl, zipname);
-        system(['cp ' zipurl ' ' zipname]);
+        urlwrite(zipurl, zipname);
         unzip(zipname, seqspath);
     catch
         fprintf('Download fails. Please try to download the bundle manually from %s and uncompress it to %s\n', zipurl, seqspath);
