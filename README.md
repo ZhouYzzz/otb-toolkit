@@ -13,7 +13,7 @@ This is a friendly toolkit for comparing your trackers and the state-of-the-art 
 
 ## Usage
 
-1. add your tracker repository to `trackers` folder
+1. add your tracker repository to `trackers` folder, or use `git submodule init && git submodel update` to access the default ECO tracker
 2. configure your tracker in file `configs/config_trackers.m`
 3. evalutae your tracker on OTB100 by running `matlab -r "run_OPE;exit;"`
 

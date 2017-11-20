@@ -1,0 +1,3 @@
+[submodule "trackers/ECO"]
+	path = trackers/ECO
+	url = https://github.com/martin-danelljan/ECO.git
