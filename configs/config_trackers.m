@@ -21,6 +21,7 @@ register('trackers', struct('name','SAMF','namePaper','SAMF'));
 % 'namePaper': the name of tracker's repository, you can put multiple verisons of tracker in a single repository
 % 'mainFunc': the main entrance of your tracker subject to the protocol of OTB
 % 'setupFunc': the function to initialize the environment
+register('trackers', struct('name','Example','namePaper','Example','mainFunc','run_Example','setupFunc',';'));
 %register('trackers', struct('name','ECO','namePaper','ECO','mainFunc','OTB_DEEP_settings','setupFunc','setup_paths'));
 %register('trackers', struct('name','ECO-HC','namePaper','ECO','mainFunc','OTB_HC_settings','setupFunc','setup_paths'));
 
