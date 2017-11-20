@@ -2,6 +2,7 @@ startup;
 
 trackers = config_trackers;
 sequences = config_sequences;
+linespecs = config_linespecs;
 
 trackers = trackers(1:end);
 sequences = sequences(1:end);
@@ -13,5 +14,5 @@ OPE_evaluate(sequences, trackers);
 OPE_perfmat(sequences, trackers);
 
 % draw performance plots
-OPE_drawplot(sequences, trackers);
+OPE_drawplot(sequences, trackers, linespecs);
 

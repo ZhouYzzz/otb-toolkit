@@ -1,4 +1,4 @@
-function OPE_drawplot(sequences, trackers)
+function OPE_drawplot(sequences, trackers, linespecs)
 % perfmat (nTrk, nSeq) cell of [1 x nPts]
 
 evalType = 'OPE';
@@ -33,10 +33,14 @@ success = squeeze(mean(success,3));
 
 h = figure; hold on;
 for itrk = rank'
-    plot(thresholdSetOverlap, success(itrk,:), 'lineWidth', 3); hold on;
+    plot(thresholdSetOverlap, success(itrk,:), linespecs{itrk}); hold on;
 end
 
-legend(nameTrkAll(rank));
+legend(nameTrkAll(rank), 'Location', 'southwest');
+box on;
+title('Success plots of OPE');
+xlabel('Overlap threshold');
+ylabel('Success rate');
 saveas(h,fullfile(figure_path, 'success_plot'),'png');
 end
 
